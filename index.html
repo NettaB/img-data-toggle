@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+  <head>
+    <script src="https://code.jquery.com/jquery-2.1.4.js" data-semver="2.1.4" data-require="jquery@*"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" data-semver="3.3.6" data-require="bootstrap@*"></script>
+    <script data-require="angular.js@1.4.8" data-semver="1.4.8" src="https://code.angularjs.org/1.4.8/angular.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet" data-semver="3.3.6" data-require="bootstrap-css@3.3.6" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body ng-controller="mainCtrl">
+    <nav class="navbar navbar-default"></nav>
+    <h1>{{message}}</h1>
+    <div class="container-fluid display">
+      <div class="row display-row">
+              <div class="thumbnail col-md-2 col-md-offset-1" ng-mouseenter="a = 1" ng-init="a = 0" ng-show="a === 0">content</div><div class="tags col-md-2 col-md-offset-1" ng-mouseleave="a = 0" ng-show="a === 1">content</div>
+              <div class="thumbnail col-md-2" ng-mouseenter="b = 1" ng-init="b = 0" ng-show="b === 0">content</div><div class="tags col-md-2" ng-mouseleave="b = 0" ng-show="b === 1">content</div>
+              <div class="thumbnail col-md-2" ng-mouseenter="c = 1" ng-init="c = 0" ng-show="c === 0">content</div><div class="tags col-md-2" ng-mouseleave="c = 0" ng-show="c === 1">content</div>
+              <div class="thumbnail col-md-2" ng-mouseenter="d = 1" ng-init="d = 0" ng-show="d === 0">content</div><div class="tags col-md-2" ng-mouseleave="d = 0" ng-show="d === 1">content</div>
+              <div class="thumbnail col-md-2" ng-mouseenter="e = 1" ng-init="e = 0" ng-show="e === 0">content</div><div class="tags col-md-2" ng-mouseleave="e = 0" ng-show="e === 1">content</div>
+      </div>
+    </div>
+  </body>
+
+</html>

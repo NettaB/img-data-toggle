@@ -1,0 +1,18 @@
+/* Styles go here */
+.display {
+  background-color: purple;
+}
+
+.thumbnail {
+  background-color: white;
+  height: 5em;
+  border-radius: 0;
+  margin-top: 1em;
+}
+
+.tags {
+  background-color: black;
+  height: 5em;
+  color: white;
+  margin-top: 1em;
+}
