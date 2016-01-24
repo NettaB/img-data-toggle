@@ -4,31 +4,135 @@
 			"firstName" : "Carol",
             "lastName": "Danvers",
             "aka" : "Captain Marvel",
+            "powers": {
+                "Flight" : 10,
+                "Strength" : 7,
+                "Energy bursts": 8
+            }
+        },
+
+        {
+			"firstName" : "Natasha",
+            "lastName": "Romanoff",
+            "aka" : "Black Widow",
+            "powers": {
+                "Martial arts" : 9,
+                "Espionage": 10
+            }
+        },
             
-		},
-
-		{
-			"gCorporate":4,
-			"yield":0.3,
-			"gEnviroment":3,
-			"fundName":"fund-2",
-			"gSociety":2
-		},
-
-		{
-			"gCorporate":5,
-			"yield":-5,
-			"gEnviroment":4,
-			"fundName":"fund-3",
-			"gSociety":3
-		},
-
-		{
-			"gCorporate":6,
-			"yield":8,
-			"gEnviroment":5,
-			"fundName":"fund-4",
-			"gSociety":4
-		}
+        {
+			"firstName" : "Kamala",
+            "lastName": "Khan",
+            "aka" : "Ms. Marvel",
+            "powers": {
+                "Shapeshifting" : 10,
+                "Size" : 9,
+                "Energy bursts": 8
+            }
+        },
+            
+        {
+			"firstName" : "Ororo",
+            "lastName": "Munroe",
+            "aka" : "Storm",
+            "powers": {
+                "Weather control" : 10,
+                "Electricty" : 8,
+                "Invisibility": 6
+            }
+        },
+        
+        {
+			"firstName" : "Jennifer",
+            "lastName": "Walters",
+            "aka" : "She-Hulk",
+            "powers": {
+                "Strength" : 10,
+                "Durability" : 10,
+                "Intelligence": 7
+            }
+        },
+        
+        {
+			"firstName" : "Wanda",
+            "lastName": "Maximoff",
+            "aka" : "Scarlet Witch",
+            "powers": {
+                "Mind control" : 8,
+                "Magic" : 7,
+                "Telekinesis" : 8
+            }
+        },
+        
+        {
+			"firstName" : "Jessica",
+            "lastName": "Drew",
+            "aka" : "Spiderwoman",
+            "powers": {
+                "Strength" : 9,
+                "Toxicity" : 9,
+                "Pheromones" : 6
+            }
+        },          
+        
+        {
+			"firstName" : "Kate",
+            "lastName": "Bishop",
+            "aka" : "Hawkeye",
+            "powers": {
+                "Archery" : 10,
+                "Martial arts" : 7
+            }
+        },
+        
+        {
+			"firstName" : "Sue",
+            "lastName": "Richards",
+            "aka" : "Invisible Woman",
+            "powers": {
+                "Invisibility" : 10,
+                "Force-field" : 8,
+                "Telekinesis" : 7
+                
+            }
+        },
+        
+        {
+			"firstName" : "Jean",
+            "lastName": "Grey",
+            "aka" : "N/A",
+            "powers": {
+                "Telepathy" : 10,
+                "Telekinesis" : 10,
+                "Phoenix Force" : 10
+                
+            }
+        },
+        
+        {
+			"firstName" : "Janet",
+            "lastName": "Van Dyne",
+            "aka" : "Wasp",
+            "powers": {
+                "Shapeshifting" : 9,
+                "Flight" : 8,
+                "Strength" : 7,
+                "Electric blasts" : 7
+                
+            }
+        },
+        
+        {
+			"firstName" : "America",
+            "lastName": "Chavez",
+            "aka" : "Miss America",
+            "powers": {
+                "Strength" : 10,
+                "Durability" : 8,
+                "Flight" : 7
+                
+            }
+        }                                                                           
 	]
 }
